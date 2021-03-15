@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    background: #ffffff url("../resources/images/Background.jpg") no-repeat fixed left top;
+    background-size: 100vw 100vh;
+}
+#root{
+    min-height: 100%;
+}
+#root{
+    .App{
+        height: 100vh;
+    }
+}
+
+.Header{
+    height: 10%;
+}
+
+.Footer{
+    height: 30%;
+    background-color: #5C5F58;
+}
+
+.Content{
+    height: 90%;
+}
