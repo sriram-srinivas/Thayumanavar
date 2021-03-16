@@ -1,11 +1,28 @@
-import Backdrop from "../components/Backdrop";
 import React from "react";
+import Backdrop from "../components/Backdrop";
+import {Route, Switch } from "react-router-dom";
+import Home from "../components/Home/Home"
+import Pages from "../components/Home/Pages";
+import Catalouge from "../containers/Catalouge/Catalouge";
 
 const Content = props =>{
     return(
-        <div className="Content">
-            <Backdrop/>
-        </div>
+        <React.Fragment>
+            <Switch>
+                <Route exact path="/" name="Home"
+                    render={(props) => (
+                    <React.Fragment>
+                        <div className="Content">                     
+                            <Home {...props}/>
+                            <Backdrop/>
+                        </div>
+                        <Pages/>
+                    </React.Fragment>
+                        )}/>
+                <Route exact path="/catalouge" name="Catalouge" render ={props =>(
+                    <Catalouge/>)} />
+            </Switch>
+        </React.Fragment>
     )
 }
 
