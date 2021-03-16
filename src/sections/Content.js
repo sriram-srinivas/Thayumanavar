@@ -1,8 +1,11 @@
+import Backdrop from "../components/Backdrop";
 import React from "react";
 
 const Content = props =>{
     return(
-        <div className="Content"> Content</div>
+        <div className="Content">
+            <Backdrop/>
+        </div>
     )
 }
 
