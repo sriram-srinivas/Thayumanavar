@@ -8,5 +8,8 @@ export  const data = {
         {Name:"Tamil",width: '30%',url:"../resources/images/Tamil_IMG.jpg"},
         {Name:"English",width: '30%',url:"src/resources/images/English_IMG.jpg"},
         {Name:"Hindi",width: '30%',url:"src/resources/images/Hindi_IMG.jpg"}],
-    AuthorList:{English:[],Tamil:[]}
+    BookList_columns:[{ field: 'Title', headerName: 'Title', width: "70%" },
+    { field: 'Rent', headerName: 'Rent', width: "15%" },
+    { field: 'Max_Days', headerName: 'Max. Days', width: "15%" }],
+
 }
