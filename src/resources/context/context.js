@@ -5,7 +5,8 @@ export  const data = {
         {Name:"About Us",route:"/about",Icon:"Info",Description:"Aenean odio purus, porttitor et nisl in, sodales tincidunt tellus. Nam tempor turpis nibh tempor faucibus. "},
         {Name:"Contact",route:"/contact",Icon:"PermContactCalendar",Description:"Nulla ut lectus pretium, aliquam mauris sed, eleifend lacus. Donec congue laoreet tellus, at laoreet justo tempor id."}],
     LanguageList:[
-        {Name:"Tamil"},
-        {Name:"English"},
-        {Name:"Hindi"}]
+        {Name:"Tamil",width: '30%',url:"../resources/images/Tamil_IMG.jpg"},
+        {Name:"English",width: '30%',url:"src/resources/images/English_IMG.jpg"},
+        {Name:"Hindi",width: '30%',url:"src/resources/images/Hindi_IMG.jpg"}],
+    AuthorList:{English:[],Tamil:[]}
 }

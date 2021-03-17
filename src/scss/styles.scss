@@ -153,6 +153,12 @@ body{
 }
 
 .catalouge{
- height: 100%; 
+ min-height: 100%; 
  background-color: #F5F5F5; 
+ padding-bottom: 5vh;
+}
+
+.LanguageSelection,.AuthorSelection,.BookView{
+    padding-top: 30vh;
+    padding-left: 5vw;
 }
