@@ -2,6 +2,7 @@ import React,{Component} from "react"
 import ImagedButton from "../../components/ImagedButton"
 import Axios from "axios"
 import Button from '@material-ui/core/Button';
+import Datatable from '../../components/Datatable/Datatable'
 
 class Catalouge extends Component {
     constructor(props){
@@ -84,7 +85,7 @@ class Catalouge extends Component {
             content = <div className="BookView">
                         <Button variant="outlined" color="primary" onClick={() => this.clearState("Author")}>&lt; Back</Button>
                         <h1>Books of {this.state.Author.Name}</h1>
-                        {JSON.stringify(this.state.BookList)}
+                        <Datatable rows={this.state.BookList} />
                     </div>
         }
         return(
