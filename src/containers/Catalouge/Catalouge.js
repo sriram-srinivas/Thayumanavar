@@ -60,7 +60,7 @@ class Catalouge extends Component {
             this.getBookList(Auth.id)
     }
 
-    clearState = key => {
+    clearState = (key,value) => {
         this.setState({
             [key]:""
         })
