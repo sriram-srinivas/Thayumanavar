@@ -152,12 +152,20 @@ body{
     }
 }
 
-.catalouge{
+.catalouge,.adminPanel{
  min-height: 100%; 
  background-color: #F5F5F5; 
  padding-bottom: 5vh;
 }
 
-.LanguageSelection,.AuthorSelection,.BookView{
+.LanguageSelection,.AuthorSelection,.BookView,.AdminView{
     padding: 15vh 3vw 0vh 3vw;
+}
+
+.optionsPanel,.addAuthorPanel{
+    text-align: left;
+}
+
+.optionsPanel li{
+    cursor: pointer;
 }

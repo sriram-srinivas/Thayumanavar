@@ -1,6 +1,6 @@
 import './App.css';
 import './App.scss';
-import {Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Layout from "./sections/Layout"
 function App() {
   return (
